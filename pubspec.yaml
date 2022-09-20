@@ -1,0 +1,70 @@
+name: drive_app
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  slide_to_act: ^2.0.1
+  hexcolor: ^2.0.7
+  get: ^4.6.5
+  auto_size_text: ^3.0.0
+  google_maps_flutter: ^2.1.10
+  flutter_polyline_points: ^1.0.0
+  location: ^4.4.0
+  intl_phone_number_input: ^0.7.0+2
+
+  pinput: ^2.2.12
+  image_picker: ^0.8.5+3
+  percent_indicator: ^4.2.2
+  flutter_advanced_switch: ^3.0.1
+  modal_bottom_sheet: ^2.1.2
+  # flutter_overlay_window: ^0.3.2
+  path_provider: ^2.0.11
+
+  app_to_foreground: ^0.0.3
+  url_launcher: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.10.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+
+  assets:
+    - assets/images/
+
+  # example:
+  fonts:
+    - family: Avenir Next
+      fonts:
+        - asset: assets/AvenirNextLTPro-Bold.ttf
+        - asset: assets/AvenirNextLTPro-Regular.ttf
+        - asset: assets/AvenirNextLTPro-Demi.ttf
+
+    - family: Arial Rounded MT
+      fonts:
+        - asset: assets/ArialRoundedMtBold.ttf
+    - family: Arial Nova
+      fonts:
+        - asset: assets/ArialNovaBold.ttf
